@@ -1,0 +1,46 @@
+Be-Breeder help page "Genome Selection (GS)":
+
+
+############################
+#### Molecular Breeding ####
+############################
+
+# General informations:
+
+Be-Breeder uses the package rrBLUP (Endelman, J.B. 2011).
+
+Calculates maximum-likelihood (ML/REML) solutions for mixed models of the form 
+
+                             y = Xb + Zu + e
+
+where "b" is a vector of fixed effects, "u" is a vector of random effects and "e" is a residual vector effects. More informations in "mixed.solve" by link https://cran.r-project.org/web/packages/rrBLUP/rrBLUP.pdf
+
+The input in the "Phenotipic file" tab should follow the example attached with
+genotypes in the first column and phenotype ("y") in the second column . 
+Use the options in the selection panel to adjust your data.
+
+Genotype Phenotype
+    1  -14.6731299        
+    2  30.6114819
+    3  29.8715863
+    4  -3.1376680
+    5  -30.5134670
+    6  -3.2362266
+
+The input in the "genotypic file" tab should follow the example attached with
+genotypes in rows and markers in columns. Use the options in the selection panel
+to adjust their data.
+
+Genotype  M1 M2 M3 M4 M5 M6 M7 M8 M9 M10 M11 M12 M13
+   1       1  1  1  1 -1 -1  1 -1  1  -1  -1  -1   1
+   2       1 -1  1 -1 -1  1 -1 -1 -1   1  -1   1  -1
+   3       1 -1 -1  1  1 -1 -1  1  1   1  -1   1   1
+   4       1 -1  1  1 -1  1  1  1  1  -1   1  -1   1
+   5       1  1 -1  1 -1 -1 -1  1  1   1   1   1  -1
+   6       1  1 -1 -1 -1 -1  1  1 -1  -1  -1  -1   1
+
+Results on "rrBLUP" tab:
+
+1 - Effect of predicted markers
+2 - Genetic Genomic value predicted for genotypes (VGG)
+3 - Selection accuracy (correlation between "VGG" and "y")

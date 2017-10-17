@@ -1,0 +1,63 @@
+
+
+
+Be-Breeder help page "Genotype x Environment":
+
+
+#############################
+#### Phenotipic Breeding ####
+#############################
+
+General information:
+
+Input:
+
+The user should create a data file with genotype in rows and mean 
+for sites in columns. Here we need to identify the genotypes in a 
+separeted column. You can create a file as shown:
+
+Genotype | site.1 | site.2 | site.3 | ... | site.n
+
+All sites include in a data file will be analysed. The column genotipe 
+should be named as "Genotype". The app provides information about the 
+principal components and a graphical biplot of theses components.
+
+Output:
+
+Summary: It shows the importance of components, the proportion of 
+         variance explained by PC and cumulative proportion. 
+Scores.G: Influence of each genotype in all components.
+Scores.E: Influence of each environment in all components.
+Biplot Graphic: biplot of first two components with proportion explained 
+                by each one. Genotypes are disperse in graphical area,
+                and the arrows represents the environment.
+
+
+DataSet example:
+
+Genotype: 20
+Site: 4
+
+Genotype	Site1	Site2	Site3	Site4
+1	9290.327937	8688.177208	6105.77669	5746.309548
+2	9879.265686	10892.42908	8399.243844	8451.782911
+3	8761.919073	9218.478104	9301.917931	9066.236774
+4	9867.526199	10951.52661	9009.235417	9332.950053
+5	9118.926879	10019.82464	9159.897941	9837.624132
+6	11517.72721	13259.89664	11633.81162	11513.53597
+7	10492.46277	14169.64022	12594.16789	11651.67929
+8	9902.862964	11770.01593	9818.066671	10326.08627
+9	9966.595182	11807.44012	7790.7346	7862.318777
+10	9454.942389	11543.60881	10681.62423	10621.86436
+11	9714.296319	10258.88035	8576.576596	9681.430222
+12	9472.133002	10596.68668	9754.566266	9765.486584
+13	9523.429554	11736.86151	10029.2474	9840.013788
+14	8576.828773	10179.58025	10241.5216	9591.928627
+15	8492.395471	9320.048957	9078.694375	8659.35884
+16	10257.17706	12388.07763	10238.70313	10631.97988
+17	9308.73345	10673.15746	8726.022851	7869.997498
+18	10367.93548	10721.51688	10958.14731	11303.15787
+19	9076.833083	9927.029873	8929.403078	9564.183869
+20	8351.134863	9165.706384	8548.710564	8799.234732
+
+

@@ -1,0 +1,42 @@
+Be-Breeder help page "Genome Selection (GS)":
+
+
+############################
+#### Molecular Breeding ####
+############################
+
+# General informations "Prediction and Selection":
+
+This Be-Breeder tab allows the user to perform genomic selection to inform the 
+effects of markers (previously predicted) and the array of markers of genotypes of interest.
+
+                                y* = uZ
+                                
+where "y" indicates the genetic genomic predicted value by the multiplication of predicted effects of
+markers ("u") with incidence matrix markers of genotypes of interest ("Z").
+
+The input on the "Marker effect" should follow the example attached with the name of the markers in 
+the first column and markers effect in the second column. Use the options in the selection panel to 
+adjust your data.
+
+    Marker         Effect
+    Affx.90654007  0.7206454548
+    Affx.90146520  0.9124157318
+    Affx.90955597 -0.8806431567
+    Affx.90643781 -0.7032328783
+    Affx.90487485  0.7032328783
+
+The input in the "Marker matrix" tab should follow the example attached with
+genotypes in rows and markers in columns. Use the options in the selection panel to 
+adjust your data.
+
+Genotype Affx.90654007 Affx.90146520 Affx.90955597 Affx.90643781
+  1             2             2             0             0
+  2             2             2             0             0
+  3             2             2             0             0
+  4             1             1             1             1
+  5             2             2             0             0
+  6             2             2             0             0
+
+As a result of analysis on the "Selection" the user can observe the VGG of assessed 
+genotypes rankead in descending order to make selection.
