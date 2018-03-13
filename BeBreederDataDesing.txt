@@ -1,0 +1,20 @@
+
+
+
+Be-Breeder help page "Experiment Designs":
+
+
+#############################
+#### Phenotipic Breeding ####
+#############################
+
+General informations:
+
+Be-Breeder use the package agricolae() (Mendiburu, 2015)
+(https://CRAN.R-project.org/package=agricolae)
+
+Here we perform a random sampling of replicates by experimental design chosen.
+
+Output:Experimental position of each repetition from each treatment.
+
+

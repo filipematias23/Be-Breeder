@@ -1,0 +1,82 @@
+
+
+Be-Breeder help page "DataSet":
+
+
+#############################
+#### Phenotipic Breeding ####
+#############################
+
+General information:
+
+Be-Breeder accept file saved as .txt and .csv. The columns of the file can be separated by comma, 
+semi-colon and tab.
+
+Genotype column should be identified by the name "Genotype" and column of trait of interest 
+should be identified by "y" and shouldn't contain any character, only number. All "NA" observations 
+will be omitted.
+
+## Output
+
+Table: Visualization of the complete table.
+Data stucture: This command shows the structure fo the data. For each column, it shows the type of 
+               object (eg. numeric, factor, integer, character...).If it is factor, it shows levels 
+               of factor
+Names: Here it shows the column names
+
+
+DataSet example:
+
+Genotype: 10
+Blck: 2
+Site: 2
+y: Trait of interest
+
+Genotype	Block	Site	y
+1	1	1	11.8
+2	1	1	12.2
+3	1	1	13.2
+4	1	1	14.6
+5	1	1	13.4
+6	1	1	15.9
+7	1	1	16.7
+8	1	1	13.4
+9	1	1	12.4
+10	1	1	15.8
+1	2	1	12.7
+2	2	1	13.6
+3	2	1	11.8
+4	2	1	13.9
+5	2	1	12.5
+6	2	1	16.4
+7	2	1	14.4
+8	2	1	13.5
+9	2	1	12.8
+10	2	1	15.2
+1	1	2	12.6
+2	1	2	13.7
+3	1	2	14.2
+4	1	2	16.5
+5	1	2	14.3
+6	1	2	16.2
+7	1	2	15.4
+8	1	2	13.2
+9	1	2	11.7
+10	1	2	17
+1	2	2	13
+2	2	2	12.9
+3	2	2	15.4
+4	2	2	15.5
+5	2	2	13.6
+6	2	2	15.3
+7	2	2	15.6
+8	2	2	14.3
+9	2	2	13.8
+10	2	2	16.8
+
+
+
+
+
+
+

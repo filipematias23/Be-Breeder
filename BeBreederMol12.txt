@@ -1,0 +1,45 @@
+Be-Breeder help page "Working Data":
+
+
+############################
+#### Molecular Breeding ####
+############################
+
+# General informations: "Quality Control"
+
+Be-Breeder uses raw.data function from SNPReady package (REF) from R package. 
+Basically this function performs the prinicpais manipulation of data sets that 
+the user needs after receiving genotyping data. The matrices generated in the 
+output of the analysis can be used for entry into other software or this 
+application in other tabs.
+
+To input the data on the "Dataset", it is recommended to follow the model available
+in the example. Use the options in the selection panel to adjust your data.
+
+sample       marker allele.1 allele.2
+A01   PHM4468-13        G        G
+A01   PHM2770-19        G        G
+A01    PHM523-21     <NA>     <NA>
+A01   PZA00485-2        A        A
+A01   PZA00473.5        G        G
+A01   PHM5232-11        C        C
+A01   PZA00084.2        C        C
+
+Then on the "Raw data" the user can mount the array by modify the follow options:
+
+Frequency of minor allele allowed (MAF);
+Minimum acceptable value of alels lost by SNP (Call Rate);
+Imputation of missing data;
+
+The user must choose the form data entry depending on the format received in genotyping,
+for this he has two options:
+
+Table or Matrix
+
+As a result, an array of genotypes in rows and markers in columns is generated.
+User can choose the data format:
+
+(0,1,2), (-1,0,1) or (structure)
+
+
+

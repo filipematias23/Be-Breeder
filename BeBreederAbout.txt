@@ -1,0 +1,8 @@
+Be-Breeder 2.0 is a R/Shiny application for statistical analysis and plant breeding developed 
+by Dr. Roberto Fritsche Neto and Ph.D. students Filipe Inacio Matias and Julia Silva Morosini, 
+who integrate the Laboratory of Allogamous Plant Breeding group - Department of Genetics, 
+"Luiz de Queiroz" College of Agriculture, University of Sao Paulo, Brazil.
+
+
+This app is free for online use, just the intellectual property is reserved in periodicals by 
+scientific citations of Be-Breeder papers.

@@ -1,0 +1,43 @@
+Be-Breeder help page "Diversity Analysis":
+
+
+############################
+#### Molecular Breeding ####
+############################
+
+# General informations: "popgen"
+
+On "Population genetics" Be-Breeder application uses the function "popgen"
+from the SNPReady package (REF) to get information regarding the frequency
+of alleles  (p and q), the minor allele frequency (MAF), Expected Heterozygosity 
+(He) and Observed Heterozygosity (Ho), Genetic Diversity (GD) and Polymorphic Information 
+Content (PIC).
+
+To perform these analyzes the user must provide information from groups/families
+within the population and markers matrix (0,1,2) as the example format. 
+If you do not provide group information, you must enter a vector of ones.
+
+The input in the "Family Information" tab should follow the example attached 
+with genotypes in the first column and group/family (PS) in the second column. 
+Use the options in the selection panel to adjust your data.
+
+       Genotype PS
+        30A37PW  1
+    DKB.340.PRO  2
+        2B688PW  1
+          BM820  3
+       Truck.TL  4
+        2B587PW  1
+
+The input in the "Genotipic File" tab should follow the example attached
+with genotypes in the first column and group/family (PS) in the second column.
+Use the options in the selection panel to adjust your data.
+
+Genotype      PHM4468.13 PHM2770.19 PZA00485.2 PZA00627.1 PZA00473.5 PHM5232.11 PZA00084.2
+30A37PW                 2          2          1          2          1          2          1
+DKB.340.PRO             2          2          1          2          1          1          0
+2B688PW                 1          2          2          1          1          2          1
+BM820                   2          2          2          2          0          1          0
+Truck.TL                2          1          2          1          1          2          1
+2B587PW                 2          2          1          1          2          2          1
+

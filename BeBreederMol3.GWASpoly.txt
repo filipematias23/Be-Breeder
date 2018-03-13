@@ -1,0 +1,44 @@
+
+
+Be-Breeder help page "Genome Association (GWAS)":
+
+
+############################
+#### Molecular Breeding ####
+############################
+
+Be-Breeder provides the tab "GWAS" where the user enters the phenotypic and molecular data. By the function "GWASpoly" from GWASpoly package (http://potatobreeding.cals.wisc.edu/software/) is possible to calculate the effects of the markers and the most strongly correlated markers with the variability of the characteristic under study. 
+
+                                        y=Xb+Zg+St+e 
+
+"y" as phenotype vector, "b" as a vector of fixed effects, "g" as the vector of genetic effects given as random, "t" as a vector of SNP effects and "e" as a residual vector. "X, Z and S" are arrays of incidence of the model.
+
+GWASpoly: The GWAS models are "general", "additive", "simplex dominant" and "duplex dominant".
+
+The input in the "Phenotipic file" tab should follow the example attached with genotypes in the first column and phenotypes ("y") in the second column. Use the options in the selection panel to adjust your data.
+
+Name	Y
+G1	69.30412573
+G2	48.89451199
+G3	64.03512852
+G4	60.87921404
+G5	64.2418616
+
+
+The input in the "Genotipic file" tab should follow the attached example, building the sequence of columns in "Marker, Chrom, Position, Genotypes." Use the options in the selection panel to adjust your data.
+
+
+Marker	Chrom	Position	G1	G2	G3	G4	G5
+SNP.1	1	98890		0	2	2	2	2
+SNP.2	1	105254		0	0	0	2	0
+SNP.3	1	106327		0	0	0	0	0
+SNP.4	1	106509		0	0	2	2	0
+SNP.5	1	108770		0	0	0	0	0
+SNP.6	1	109141		0	0	2	2	2
+SNP.7	1	109244		0	0	2	2	2
+SNP.8	1	109474		0	0	2	2	2
+SNP.9	1	109496		0	0	2	2	2
+SNP.10	1	109839		0	0	2	2	2
+
+
+The output on the "GWASpoly" shows the predicted effects of the main markers and the "Manhattan plot" graphic for all chromosomes.
