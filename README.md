@@ -15,7 +15,7 @@ Quality control of genotyping data, Genomic selection, Genomic Association Analy
 
 ### Credits: 
 
-Dr. Roberto Fritsche Neto and Ph.D. students Filipe Inacio Matias and Julia Silva Morosini
+Dr. Roberto Fritsche Neto, Dr. Filipe Inacio Matias, and Ph.D. students  Julia Silva Morosini and Fernando Garcia Espolador 
 
 ### License: 
 
