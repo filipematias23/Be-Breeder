@@ -1,0 +1,31 @@
+Be-Breeder help page "Working Data":
+
+
+############################
+#### Molecular Breeding ####
+############################
+
+# General informations: "Kinship Matrix"
+
+In this tab the Be-Breeder application helps the user to build arrays of kinship. 
+For this it is used the "G.matrix" function from SNPReady package (Granato et al. 2018).
+
+The input in the "File Uploading" tab should follow the example attached with
+Genotypes lines and markers in columns. Use the options in the panel
+to adjust the data.
+
+Genotype         V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17 V18 V19
+B11_E26B6_E21    0  2  2  0  2  2  2  2   1   0   0   2   1   2   2   1   0   2
+C3_E30C4_E31     0  2  2  0  2  2  2  2   1   0   0   2   0   1   2   2   1   2
+A6_E9A1_1        1  1  1  1  2  2  1  2   2   0   0   2   1   0   2   2   0   2
+B5_E20A1_1       1  1  1  1  2  2  1  2   1   0   0   2   1   1   2   1   0   2
+B1_E16F6_E2      1  1  2  1  2  2  1  2   0   0   0   2   0   2   1   2   0   2
+
+Here, the user may choose among four kinship matrix options:
+
+UAR - unified additive relationship matrix (Yang et al 2010);
+UARadj - adjusted unified additive relationship matrix (Yang et al 2010);
+WW - relationship matrix of VanRaden (VanRaden 2008); and
+GK - Gaussian kernel method.
+
+
