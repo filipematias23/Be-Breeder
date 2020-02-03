@@ -1,8 +1,16 @@
-﻿# Be-Breeder 2.0 
+﻿# [Be-Breeder 2.0](http://vencovsky.esalq.usp.br:3838/shiny/be-breeder/) 
 
 ### Description: 
 
-> Be-Breeder 2.0 is a R/Shiny application for statistical analysis and plant breeding developed by Laboratory of Allogamous Plant Breeding group - Department of Genetics, "Luiz de Queiroz" College of Agriculture, University of Sao Paulo, Brazil.
+> [Be-Breeder 2.0](http://vencovsky.esalq.usp.br:3838/shiny/be-breeder/) is a R/Shiny application for statistical analysis and plant breeding developed by Laboratory of Allogamous Plant Breeding group - Department of Genetics, "Luiz de Queiroz" College of Agriculture, University of Sao Paulo, Brazil.
+
+<br />
+
+<p align="center">
+  <img src="https://github.com/filipematias23/images/blob/master/readme/logobb.jpg">
+</p>
+
+<br />
 
 ### Contents: 
 
