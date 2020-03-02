@@ -42,7 +42,7 @@
 #### Laboratory of Allogamous Plant Breeding, Department of Genetic, USP/ESALQ/Brazil 
 
 #### E-mail: 
-> 1. filipematias23@usp.br
+> 1. filipematias23@gmail.com
 > 2. roberto.neto@usp.br
 > 3. julia.morosini@usp.br    
 
